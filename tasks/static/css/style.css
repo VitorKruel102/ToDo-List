@@ -81,6 +81,7 @@
 
 .list-div {
     padding: 0%;
+    height: 550px;
 }
 
 .task-list {
@@ -155,4 +156,11 @@ ul.messages li {
 .step-links .current {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+
+/* login */
+
+.auth-card {
+    margin-bottom: 60px;
 }
