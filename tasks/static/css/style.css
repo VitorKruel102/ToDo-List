@@ -61,10 +61,12 @@
     height: 38px; 
     border: 1px solid rgba(51, 51, 51, 0.227);
     border-radius: 5px;
+    cursor: pointer;
 }
 .botao_search {
     position: absolute;
     display: inline-block;
+    
 }
 #search {
     display: inline-block;
