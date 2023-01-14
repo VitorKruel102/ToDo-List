@@ -12,7 +12,7 @@ def taskList(request):
     search = request.GET.get('search')
 
     if search:
-        tasks = Task.objects.filter(title__icontains=search)
+        tasks = Task.objects.filter(title__icontains=search) #title_icontains -> Para o usuario não precisar saber exatamente o titulo
     else:
         tasks_list = Task.objects.all().order_by('-created_at')
 

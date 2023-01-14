@@ -9,6 +9,7 @@ packages = [{include = "projeto_todo"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 django = "^4.1.5"
+django-crispy-forms = "^1.14.0"
 
 
 [build-system]
