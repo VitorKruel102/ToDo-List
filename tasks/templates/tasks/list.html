@@ -25,6 +25,14 @@
             </div>
         </form>
     </div>
+    <div class="col-12 filter-div">
+        <span>Filtar por:</span>
+        <select name="filter" id="filter" class="form-control">
+            <option value="">Escolha uma opção</option>
+            <option value="done">Tarefas Concluídas</option>
+            <option value="doing">Tarefas á fazer</option>
+        </select>
+    </div>
     {% if messages %}
         <ul class="messages">
             {% for message in messages %}
