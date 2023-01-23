@@ -59,6 +59,7 @@ def newTask(request):
 def editTask(request, id):
     task = get_object_or_404(Task, pk=id)
     form = TaskForm(instance=task) #Deixa o formulario com os dados anteriores
+
     
     if (request.method == 'POST'):
         form = TaskForm(request.POST, instance=task)
